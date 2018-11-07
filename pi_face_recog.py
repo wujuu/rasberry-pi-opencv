@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 import time
 
-face_cascade = cv2.CascadeClassifier('haarcascade_eye_tree_eyeglasses.xml')
+face_cascade = cv2.CascadeClassifier('haarcascades/haarhaarcascade_frontalface_default.xml')
 
 camera = PiCamera()
 camera.resolution = (640, 480)
