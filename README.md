@@ -44,3 +44,28 @@ $ python3 pi_recog.py
 
 `pi_recog_threaded` file is essentially the same script, but uses imutils library for capturing images in a separate thread and FPS measurement. 
 
+`haarcascades` folder contains classifiers for things like face or full body detection. Those files are taken from OpenCV library. 
+
+## Links
+
+- Project homepage: <https://your.github.com/awesome-project/>
+
+- Repository: <https://github.com/your/awesome-project/>
+
+- Issue tracker:
+
+  https://github.com/your/awesome-project/issues
+
+- Related projects:
+
+  - Object detection based on TensorFlow: <https://github.com/EdjeElectronics/TensorFlow-Object-Detection-on-the-Raspberry-Pi/>
+  - OpenCV optimized for Raspberry Pi 3: <https://github.com/abhiTronix/OpenCV_Raspberry_pi_TBB/>
+
+## Authors
+
+- **Patryk Wójtowicz** - *Initial work and scripts* - [wujuu](https://github.com/wujuu)
+- **Kamil Doległo** - *OpenCV image and documentation* - [kamilok1965](https://github.com/kamilok1965)
+
+## Licensing
+
+This project is licensed under the MIT license
