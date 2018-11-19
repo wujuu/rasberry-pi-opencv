@@ -48,13 +48,11 @@ $ python3 pi_recog.py
 
 ## Links
 
-- Project homepage: <https://your.github.com/awesome-project/>
-
-- Repository: <https://github.com/your/awesome-project/>
+- Repository: <https://github.com/wujuu/rasberry-pi-opencv>
 
 - Issue tracker:
 
-  https://github.com/your/awesome-project/issues
+  <https://github.com/wujuu/rasberry-pi-opencv/issues>
 
 - Related projects:
 
