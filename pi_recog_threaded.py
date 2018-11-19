@@ -5,19 +5,28 @@ import numpy as np
 import imutils
 import cv2
 import time
-from queue import Queue
 
-cascade_classifiers = {0: "haarcascades/haarcascade_frontalface_default.xml",
-                       1: "haarcascades/haarcascade_fullbody.xml",
-                       2: "haarcascades/haarcascade_profileface.xml"}
+cascade_classifiers = [("Frontal face", "haarcascades/haarcascade_frontalface_default.xml"),
+                       ("Full body", "haarcascades/haarcascade_fullbody.xml"),
+                       ("Profile face", "haarcascades/haarcascade_profileface.xml")]
 
-print("Select classifier: \r\n [0]: Frontal face \r\n [1]: Full body \r\n [2]: Profile face \r\n")
+print("Select classifier:")
+
+for i, t in enumerate(cascade_classifiers):
+    print("["+str(i)+"]: " + t[0])
+
 try:
-    ind=int(input('Choose a number: \r\n'))
+    ind = int(input('Choose a number: \r\n'))
 except ValueError:
-    print("Not a number")
+    print("Error: Not a number")
+    exit()
     
-cascade = cascade_classifiers[ind]    
+try:
+    cascade = cascade_classifiers[ind][1] 
+except IndexError:
+    print("Error: Value out of range")
+    exit()
+
 
 cascade = cv2.CascadeClassifier(cascade)
 
