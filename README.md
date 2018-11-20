@@ -49,13 +49,8 @@ $ python3 pi_recog.py
 ## Links
 
 - Repository: <https://github.com/wujuu/rasberry-pi-opencv>
-
-- Issue tracker:
-
-  <https://github.com/wujuu/rasberry-pi-opencv/issues>
-
+- Issue tracker: <https://github.com/wujuu/rasberry-pi-opencv/issues>
 - Related projects:
-
   - Object detection based on TensorFlow: <https://github.com/EdjeElectronics/TensorFlow-Object-Detection-on-the-Raspberry-Pi/>
   - OpenCV optimized for Raspberry Pi 3: <https://github.com/abhiTronix/OpenCV_Raspberry_pi_TBB/>
 
