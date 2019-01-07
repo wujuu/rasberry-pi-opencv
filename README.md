@@ -30,6 +30,12 @@ $ pip install numpy, picamera, imutils
 
 This command should fetch and install them. 
 
+If you use official RaspberryPi camera then for running `recog_simplest.py` script you also need to load a kernel module for the camera:
+
+```bash
+$ sudo modprobe bcm2835_v4l2 
+```
+
 You can now run the scripts:
 
 ```bash
