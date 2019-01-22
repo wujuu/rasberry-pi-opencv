@@ -1,4 +1,4 @@
-![agh logo](/home/kamil/Documents/agh.png)
+![agh logo](agh.png)
 
 
 
