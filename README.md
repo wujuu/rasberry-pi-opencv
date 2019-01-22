@@ -46,11 +46,13 @@ $ python3 pi_recog.py
 
 ## Files description
 
-`pi_recog` file is a basic script with 3 predefined Haar cascades from OpenCV.
+* `recog_simplest.py` file is the simplest version of image recognition using OpenCV. This script requires the `bcm2835_v4l2` kernel module.
 
-`pi_recog_threaded` file is essentially the same script, but uses imutils library for capturing images in a separate thread and FPS measurement. 
+* `pi_recog.py` file is a basic script with 3 predefined Haar cascades from OpenCV.
 
-`haarcascades` folder contains classifiers for things like face or full body detection. Those files are taken from OpenCV library. 
+* `pi_recog_threaded.py` file is essentially the same script, but uses `imutils` library for capturing images in a separate thread and FPS measurement. 
+
+* `haarcascades/` directory contains classifiers for things like face or full body detection. Those files are taken from OpenCV library. 
 
 ## Links
 
@@ -62,7 +64,7 @@ $ python3 pi_recog.py
 
 ## Authors
 
-- **Patryk Wójtowicz** - *Initial work and scripts* - [wujuu](https://github.com/wujuu)
+- **Patryk Wójtowicz** - *Initial work, scripts, training cascades* - [wujuu](https://github.com/wujuu)
 - **Kamil Doległo** - *OpenCV image and documentation* - [kamilok1965](https://github.com/kamilok1965)
 
 ## Licensing
